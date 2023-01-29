@@ -1,0 +1,747 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*HEADER*/
+.barraprincipal {height: auto;
+                 width: 100%;
+                 background-color: white;
+                 border-top: solid 20px black;
+                 border-bottom: solid 2px grey;
+
+                 padding: 1rem;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+
+                 font-family: 'Helvetica Neue';
+                 font-style: normal;
+                 font-weight: 400;
+                 font-size: 20px;
+                 text-transform: capitalize;
+                }
+
+
+.logo{ background-image: url(../recursos/logothnk.png);
+       background-size: cover;
+       height: 60px;
+       width: 160px;
+       background-position: center;
+       margin-bottom: 0.5rem;
+    }
+
+.barra ul {display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+          }
+
+.barra ul li {list-style: none;
+              padding: 8px;
+             }
+
+.barra a {text-decoration: none;
+          color: black;
+}
+
+.barra a:hover {font-weight: 600;
+}
+
+/*main{display: block;}* QUE ES ESTO!!*/
+
+main{height: auto;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }    
+
+/*ACA PODRIA PONER FLEX-WRAP:WRAP*/
+
+/*FOOTER*/
+
+footer {width:100%;
+        height: auto;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+
+.footer1 {height: auto;
+          width: 100%;
+          background-color:white;
+          border-top: solid 2px grey;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          color: grey;
+
+          text-align: center;
+         }
+
+
+.Direccion {width:50vw;
+            height: auto;
+            padding: 16px;
+           }
+
+.Sociales {
+            height: fit-content;
+            padding: 16px;
+           }
+   
+.Contacto {
+            height: fit-content;
+            padding: 16px;
+           }
+
+.footer1 h4{ font-family: 'Helvetica Neue';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            }
+
+.footer1 p { font-family: 'Helvetica Neue';
+             font-style: normal;
+             font-weight:normal;
+             font-size: 18px;}
+
+.footer1 ol li {list-style: none;
+                margin-top: 8px;
+                margin-bottom: 8px;
+               }
+
+.footer1 a {text-decoration: none;
+            color: grey;
+            font-family: 'Helvetica Neue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            }
+
+.footer1 a:hover {font-weight: 600;}
+
+.footer2  { height: auto;
+            width: 100%;
+            background-color: black;
+            padding: 1rem;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+  
+.footer2 a {color:white;
+            text-decoration: none;
+            font-family: 'Helvetica Neue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;}
+  
+.logo-footer2 {background-color: black;
+               width: 100px;
+               height:auto;
+               background-image: url(../recursos/SBD.png);
+               background-size: cover;
+               background-position: center;
+               }
+
+.nav-footer2 ul li { list-style: none;
+                     margin-left: 8px;
+                     margin-right: 8px;
+                   }
+
+.footer2 a:hover {font-weight: 600;}
+
+/*Aca empiezo con las paginas*/
+/*en comun a todas*/
+
+/*Titulo de la pagina*/
+
+.title {height:auto;
+        width: 100%;
+        background-color:white;} 
+
+.title h2 {font-family: 'Helvetica Neue';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 24px;
+       line-height: 28px;
+       text-align: center;
+       padding: 0.5rem;
+      }
+
+
+/*Seccion suscribirse a newsletter*/
+
+.suscripcion-noticias{height: auto;
+                      width: 100%;
+                      background-color:#F0F0F0;
+                      text-align: center;
+                      padding: 16px;
+                     }
+
+.suscripcion-noticias h3 {font-family: 'Helvetica Neue';
+           font-style: normal;
+           font-weight: bold;
+           font-size: 24px;
+                    }
+
+.suscripcion-noticias h4 {font-family: 'Helvetica Neue';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 18px;
+            padding: 4px;
+                    } 
+            
+.input-news{text-align: left;
+            width: 90%;
+            height: 40px;
+            margin: 8px;
+        }
+
+.input-check {margin: 8px;}
+       
+/*PAGINA INDEX*/
+
+.hero-img { height:40vh;
+            width: 100%;
+            background-color: brown;
+            background-image: url(../recursos/hero-home.png);
+            background-size: cover;
+            background-position: center;
+          }
+
+.el-estudio {height:auto;
+             width: 90%;
+             background-color: white;
+             color: black;
+             text-align: center;
+             padding: 16px;
+             font-family: 'Helvetica Neue';
+            }
+
+.el-estudio h1 {font-style:normal;
+                font-weight: bold;
+                font-size: 24px;
+                margin-bottom: 4px;
+               }
+
+.el-estudio h2 {font-style:normal;
+                font-weight: bold;
+                font-size: 20px;
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+               }
+
+.el-estudio p { font-style:normal;
+                font-weight:normal;
+                font-size: 18px;
+                margin-top: 16px;
+                margin-bottom: 16px;
+                line-height: 32px;
+             }
+
+.Staff {height: auto;
+        width: 100%;
+        background-color: #F0F0F0;
+        color: black;
+        text-align: center;
+    }
+
+.Staff h2{ font-style:normal;
+           font-weight: bold;
+           font-size: 24px;
+           margin-top: 8px;
+           margin-bottom: 8px;
+         }
+
+.personas{height: auto;
+          width: 100%;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          align-items: center;
+          justify-content: center;
+         }
+
+.personas h3 {font-style:normal;
+              font-weight:600;
+              font-size: 22px;
+              margin-top: 16px;
+            }
+
+.personas h4 {font-style:normal;
+              font-weight:normal;
+              font-size: 18px;
+              margin-top: 16px;
+            }
+
+.persona1 , .persona2 , .persona3 , .persona4 {width:50vw;
+                                               height: auto;
+                                               display: flex;
+                                               flex-direction: column;
+                                               align-items: center;
+                                               padding:0.5rem;}
+
+.persona1-img {height:140px;
+               width: 140px;
+               background-color: #F0F0F0;
+               background-image: url(../recursos/persona1.png);
+               background-size: cover;
+               margin-bottom: 16px;
+              }
+
+.persona2-img {height: 140px;
+               width: 140px;
+               background-color: #F0F0F0;
+               background-image: url(../recursos/persona2.png);
+               background-size: cover;
+               margin-bottom: 16px;
+              }
+
+.persona3-img {height: 140px;
+               width: 140px;
+               background-color: #F0F0F0;
+               background-image: url(../recursos/persona3.png);
+               background-size: cover;
+               margin-bottom: 16px;
+              }
+
+.persona4-img {height: 140px;
+                width: 140px;
+                background-color: #F0F0F0;
+                background-image: url(../recursos/persona4.png);
+                background-size: cover;
+                margin-bottom: 16px;
+               }
+
+
+.Ultimos-proyectos {height: auto;
+                    width: 100%;
+                    background-color: white;
+                    color: black;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    }       
+
+.Ultimos-proyectos h2 {font-style:normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        margin-top: 16px;
+                        margin-bottom: 16px;
+                    }
+
+.galeria-proyectos {height: auto;
+                    width: 100%;
+                   }
+
+.proyecto1 {height: 200px;
+            width: 100%;
+            background-color: #F0F0F0;
+            background-image: url(../recursos/proy1.png);
+            background-size: cover;
+            background-position: center;
+            }
+
+.proyecto2 {height: 200px;
+            width: 100%;
+            background-color: #F0F0F0;
+            background-image: url(../recursos/proy2.png);
+            background-size: cover;
+            background-position: center;}
+
+.proyecto3 {height: 200px;
+            width: 100%;
+            background-color: #F0F0F0;
+            background-image: url(../recursos/proy3.png);
+            background-size: cover;
+            background-position: center;}
+
+.Boton1         {height: auto;
+                width:50%;
+                padding: 8px;
+                border: solid 2px black;
+                border-radius: 4px;
+                font-size: 20px;
+                font-family: 'Helvetica Neue';
+                font-style: normal; 
+                align-items: center;
+                line-height: 22px;
+                margin: 1rem;
+                }
+
+.Ultimos-proyectos a {text-decoration: none;
+                        color: black;
+                     }
+
+.Ultimos-proyectos a:hover {font-weight: bold;}
+
+.cajon-consultas {width: 100%;
+                  height: auto;
+                  background-color:#FFBEAF;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  text-align: center;
+                  padding: 1rem;
+                 }
+
+.cajon-consultas h2 {padding: 16px;}
+
+.cajon-consultas p  {padding: 16px;
+                     width: 80%;
+                     font-style:normal;
+                     font-weight:normal;
+                     font-size: 18px;
+                     margin-bottom: 16px;
+                     line-height: 24px;}
+
+.cajon-consultas a {text-decoration: none;
+                    color: black;}
+
+.cajon-consultas a:hover {font-weight: bold;}
+
+/*
+.button-up {padding: 16px;}     
+
+.logo a img {height: 60px;
+             width: 100%;}        
+*/
+
+/*PAGINA SERVICIOS*/
+
+.sright{width: 100%;
+        height: auto;
+        background-color: chartreuse;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;}
+
+.sright-img{background-color: #FF856A;
+            background-image: url(../recursos/servicio1.png);
+            height: 200px;
+            width: 100%;
+            background-size: cover;
+            }
+
+.sright aside {height: 200px;
+               width: 100%;
+               background-color:white;
+               padding: 0.5rem;
+              }
+
+.sright h3 {font-family: 'Helvetica Neue';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            margin: 0.5rem;
+            }
+
+.sright p   {font-family: 'Helvetica Neue';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 18px;
+            margin: 0.5rem;
+            }
+
+ .sleft {width: 100%;
+        height: auto;
+        background-color: rgb(212, 0, 255);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;}
+
+.sleft-img{background-color: #FF856A;
+            background-image: url(../recursos/servicio2.png);
+            height: 200px;
+            width: 100%;
+            background-size: cover;
+            }
+
+.sleft aside {height: 200px;
+            width: 100%;
+            background-color:white;
+            padding: 0.5rem;
+               }
+
+.sleft h3 {font-family: 'Helvetica Neue';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            margin: 0.5rem;
+            }
+
+.sleft p   {font-family: 'Helvetica Neue';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 18px;
+            margin: 0.5rem;
+            }
+
+#Packaging {background-image: url(../recursos/servicio3.png);}
+#Ilustracion {background-image: url(../recursos/servicio4.png);}
+
+/*PAGINA PROYECTOS*/
+
+.Proyecto-right {width: 100%;
+                 height: auto;
+                 background-color: chartreuse;
+                 color: black;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                }
+
+.Proyectoright-img {background-color: #b121d4;
+                    width: 100%;
+                    height: 200px;
+                    background-image: url(../recursos/Proyecto4.png);
+                    background-size: cover;
+                    background-position: center;
+                }
+
+.Proyecto-right aside {height: 220px;
+                       width: 100%;
+                       background-color:white;
+                       padding-left: 16px;
+                       padding-bottom: 8px;
+                       display: flex;
+                       flex-direction: column;
+                       align-items: flex-start;
+                      }
+
+.Proyecto-right h3{ font-family: 'Helvetica Neue';
+                    font-style: normal;
+                    font-weight:bold;
+                    font-size: 20px;
+                  }
+
+.Proyecto-right h4 {font-family: 'Helvetica Neue';
+                    font-style: normal;
+                    font-weight:600;
+                    font-size: 18px;
+                    margin-top: 16px;
+                    margin-bottom: 16px;}
+
+.Proyecto-right p   {font-family: 'Helvetica Neue';
+                    font-style: normal;
+                    font-weight:normal;
+                    font-size: 16px;
+                    width: 90%;
+                    }
+
+.Proyecto-left {width: 100%;
+                height: auto;
+                background-color: rgb(212, 0, 255);
+                color: black;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+               }
+
+.Proyectoleft-img {background-color: #b121d4;
+                    width: 100%;
+                    height: 200px;
+                    background-image: url(../recursos/Proyecto5.png);
+                    background-size: cover;
+                    background-position: center;
+                }
+
+.Proyecto-left aside {height: 220px;
+                       width: 100%;
+                       background-color:white;
+                       padding-left: 16px;
+                       padding-bottom: 8px;
+                       display: flex;
+                       flex-direction: column;
+                       align-items: flex-start;
+                      }
+
+.Proyecto-left h3{ font-family: 'Helvetica Neue';
+                    font-style: normal;
+                    font-weight:bold;
+                    font-size: 20px;
+                  }
+
+.Proyecto-left h4 {font-family: 'Helvetica Neue';
+                    font-style: normal;
+                    font-weight:600;
+                    font-size: 18px;
+                    margin-top: 16px;
+                    margin-bottom: 16px;}
+
+.Proyecto-left p   {font-family: 'Helvetica Neue';
+                    font-style: normal;
+                    font-weight:normal;
+                    font-size: 16px;
+                    width: 90%;
+                }
+
+#Proyect3 {background-image: url(../recursos/Proyecto7.png);}
+
+#Proyect4 {background-image: url(../recursos/Proyecto6.png);}
+
+.tag {background-color:#FF856A;
+      color:white ;
+      height: auto;
+      width:fit-content;
+      padding: 8px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      align-self: flex-end;
+     }
+
+.Boton-ancho {width: 100%;
+              height: auto;
+              background-color: #FFD1C7;
+              text-align: center;
+              padding: 8px;
+              font-size: 24px;
+              font-family: 'Helvetica Neue';
+              font-style: normal; 
+              align-items: center;
+              line-height: 22px;
+             }
+
+.Boton-ancho a {text-decoration: none;
+                color: black;}
+
+.Boton-ancho a:hover {font-weight: bold;}
+
+/*PAGINA CONTACTO*/
+
+.preguntas {height: auto;
+            width:80vw;
+            color: black;
+            margin: 2rem;
+            text-align: center;
+            background-color: white;
+            }
+
+.preguntas h3 {font-size: 20px;
+            font-family: Helvetica Neue;
+            font-style: normal;
+                }
+
+
+.formulario {display: flex;
+             flex-direction: column;
+            width:fit-content;
+            height: auto;
+            align-items: center;}
+
+.formulario-contacto-grid {height: auto;
+                          background-color: white;
+                          width: 80vw;
+                          display:flex;
+                          flex-direction: column;
+                          align-items: center;
+                         }
+
+.formulario-contacto-grid input {height: 36px;
+                                 border: 2px solid grey;
+                                 border-radius: 4px;
+                                 margin-top: 0.5rem;
+                                 margin-bottom: 0.5rem;
+                                 width: 90%;
+                                }
+
+form .textarea { height: 4rem ;
+            border: 2px solid grey;
+            border-radius: 4px;
+            width: 85%;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+          }
+          
+.checkbox-flex {display: flex;
+                padding: 1rem;
+                }
+
+form p {font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        padding: 8px;
+    }
+       
+.boton-formulario {width: 30%;
+    height: auto;
+    background-color: #FFD1C7;
+    text-align: center;
+    padding: 8px;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal; 
+    align-items: center;
+    line-height: 22px;}
+
+.boton-formulario:hover {font-weight: bold;}
+
+form {margin:  2rem;}
+
+/*PAGINA CLIENTES*/
+
+.clientes-grid {display: grid;
+                grid-template-columns: repeat(3, 1fr);}
+
+.clientes-img { width:90%;
+                height: auto;
+                margin:0.5rem;}
+
+.opinion {  background-color: #FFF0EC;
+            width: 100%;
+            height: auto;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+         }
+
+.cliente-perfil {display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                }
+
+.cliente-perfil img {width: 80%;}
+
+.cliente-perfil h4 {font-size: 18px;
+                    font-family: Helvetica;
+                    font-style: normal;
+                    margin-top: 0.5rem;}
+
+.cliente-perfil h5 {font-size: 16px;
+                    font-family: Helvetica;
+                    font-style: normal;
+                    margin-top: 0.5rem;}
+
+.opinion-texto {padding: 2rem;
+                width: 100%;
+                font-family: Helvetica;
+                font-style: normal;        
+                }
+
+.opinion-texto h2 {margin-top: 0.5rem;
+        margin-bottom: 0.5rem;}
+
+.opinion-texto h3 {margin-top: 0.5rem;
+        margin-bottom: 0.5rem;}
+
+.opinion-texto p {  margin-top: 0.5rem;
+                    margin-bottom: 0.5rem;
+                    background-color: #F0F0F0;}
+
+
